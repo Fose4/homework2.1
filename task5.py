@@ -1,0 +1,11 @@
+import math
+print ('Введите координату x1')
+x1 = float(input())
+print ('Введите координату y1')
+y1 = float(input())
+print ('Введите координату x2')
+x2 = float(input())
+print ('Введите координату y2')
+y2 = float(input())
+distans = round(math.sqrt((x2 - x1)**2 + (y2 - y1)**2), 2)
+print (distans)
